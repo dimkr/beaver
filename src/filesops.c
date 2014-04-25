@@ -77,7 +77,7 @@ gchar *str_get_last_part (gchar *String, gchar Separator,
       else LastPart[j++] = String[i++];
     }   
   LastPart[j] = '\0';
-  if (!ReturnIfSeparatorNotFound && !Switch) return ("");
+  if (!ReturnIfSeparatorNotFound && !Switch) LastPart[0] = '\0';
   return (LastPart);
 }
 
@@ -91,7 +91,7 @@ gchar *get_absolute_path (gchar *FileName)
   gint i = 0;
 
   if (g_path_is_absolute (FileName))
-    return (FileName);
+    return g_strdup(FileName);
   TempFileName = g_strconcat (g_get_current_dir (),
 			      PATH_SEP_STRING, FileName, NULL);
   Tab = g_strsplit (TempFileName, PATH_SEP_STRING, 0);
