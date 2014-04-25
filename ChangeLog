@@ -1,0 +1,170 @@
+2003-06-28 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.2.7: - Small bugfixes (in search.c and editor.c)
+
+2003-02-17 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.2.6: - Added string replacement in all buffers
+		 - NOTE: this time, it REALLY is the final release made by
+		   After and Ender (until proven wrong... ;)
+
+2003-01-18 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.2.5: - Integrated a patch by Shirai Kaoru in order to manage
+	           multibytes fontsets
+		 - Added conversions on all opened files
+
+2002-07-18 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.2.4: - Syntax highlighting cleaned and highly optimized by After
+	         - Syntax highlighting memory usage reduced by more than 95%
+	         - Manual choice of syntax highlighting mode
+	         - New icons by Jimmac
+	         - Added the default shortcut Ctrl-A to "select all"
+		 - Removed non-implemented regexp buttons
+		 - Serious configuration writing bug corrected
+		 - Makefile and man page enhanced
+		 - NOTE: this is the final release made by After and Ender
+
+2002-02-27 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.2.3: - locale support added
+	         - wordfile.h: Bash scripts support added, the C/C++ section
+		   has been cleaned
+		 - Corrected the bug of shift + backspace (some text
+		   was automatically selected and deleted...)
+		 - A _big_ undo/redo bug corrected
+		 - Man page and Makefile updated
+
+2002-02-18 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.2.2: - small bugfix concerning the key bindings loading
+	         - the Print function has been added
+		 - Makefile updated, install rule added
+		 - Man page by Ramakrishnan M.
+		 - Bugfixes by James Troup and Paul Slootman
+		   (for more details, hava a look at
+		   http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=beaver)
+
+2001-02-15 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.2.1: - conf.c and conf.h have been completely rewritten
+
+2001-01-15 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.2.0: - Few changes and some polishing for the first public release!
+
+2000-11-08 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.1.6: (It has been an eternity we didn't work on Beaver)
+		 - New syntax highlighting engine by Marc (by 100 faster!)
+
+2000-07-25 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.1.5: (It has been a while I didn't work on Beaver)
+		 - Color Picker
+
+2000-06-07 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.1.4: - Preferences window
+	         - Unlimited Undo/Redo
+
+2000-06-04 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.1.3: - Mark's Auto-completion engine
+	         - You can toggle Wordwrap
+
+2000-05-31 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.1.2: - First search engine
+                 - Search Dialog box
+                 - Search & Replace Dialog box
+	         - Goto Line Dialog Box
+		 - PopUp Menu on right-click
+		 - Backup and Autosave
+
+2000-05-26 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.1.1: - Syntax highlighting enhancements (no crashes anymore :)
+                 - Conversion of File Formats (UNIX, MAC, DOS)
+                 - Case manipulation functions
+                 - A Base converter
+                 - As usual, bug fixes...
+
+2000-05-06 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.1.0: - Syntax highlighting enhancements
+		 - First automatic indentation & correction
+		 - Beaver Languages menu management (see the docs for more
+		   details)
+                 - There was no pity for the found remaining bugs
+
+2000-05-01 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.0.9: - First Syntax highlighting (thanks to Marc)
+		 - Font can be modified through the config file
+                 - We corrected lots of bugs
+
+2000-04-26 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.0.8: - Toolbar
+		 - New menus (Insert Time, choose tabs&scrollbar positions...)
+		 - Save Window size when you quit
+	         - Menu with recent files
+                 - I corrected a few bugs
+
+2000-04-21 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.0.7: - A complete preferences management system
+                 - New menus
+	         - A File information Dialog box
+
+2000-03-24 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.0.6: - Many improvements on the file rights management
+	         - Files that are Read only are marked with 'RO' on the
+	           tab&menu labels
+		 - You can toggle Readonly mode (on files on which you have
+		   write access, of course...)
+		 - The message bar is functionnal
+		 - I corrected all the remaining bugs :)
+
+2000-03-19 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.0.5: - Files that have been modified are identified by a '*' before
+	           their name on the tab&menu labels
+		 - if you close a modified file, you're asked wether you wanna
+		   save it or not (the same when you exit the program)
+		 - I corrected a few bugs again
+
+2000-03-08 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.0.4: - A new file properties storage system has been implemented,
+	           that allows to open an unlimited amount of files
+		 - The menus can now be detached from the menubar
+		 - I corrected a few bugs
+
+2000-03-06 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.0.3: - The Notebooks system is now implemented, so that you can
+	           work on many files simultaneously
+		 - The title of the Window and the Notebooks Labels are
+		   changing dynamically
+		 - The menubar is more and more complete
+		 - You can load, save, save as, save all, close, close all
+		   and edit text files
+		 - There's a FABULOUS 'About' Dialog box <;-P
+		   (Thanks to Tigert for the nice picture...)
+		 - It now looks like a middle average text editor...
+
+2000-03-02 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.0.2: - The menubar is more complete, with functionnal menus
+                 - You can load, save as and edit text files
+		 - There's a Magnificent 'About' Dialog box :)
+		 - Not to forget the Msg bar
+		 - On a nutshell, it looks like a poor text editor...
+
+2000-03-01 Emmanuel Turquin <turqui_e@epita.fr>
+
+* Version 0.0.1: - First interface... in fact, it's just an embryonic menubar!

@@ -1,0 +1,14 @@
+Priorities (in a more or less chaotic order):
+
+* Documentation
+* Complete preferences system (better management of the '.bl' files)
+* Port to GTK 2 (which has a decent text widget) or use GTK 1.2 along with
+  Scintilla (www.scintilla.org)
+* New highlighting engine
+* Improved Search Engine (regexp)
+* Compress datas used by the undo/redo code
+* Customizable toolbar
+* Lots of '.bl' files for the customizable Languages menu
+  (would you contribute ?)
+* New functionalities (diff, mail, RCS, CVS, ...)
+* Any suggestion ???

@@ -1,0 +1,77 @@
+Beaver 0.2.7
+Marc Bevand, Damien Terrier and Emmanuel Turquin, 2000-2003
+
+
+INTRODUCTION
+------------
+  First of all, many thanks for your interest in Beaver. Beaver is an Early
+AdVanced EditoR, for Linux and other Unices (and even Windows); in other words,
+it's a text editor that is lightweight but full of features for programming,
+from web authoring to C programming. It is based on the GTK+ toolkit, supports
+tons of languages through config files (100% compatible with UltraEdit
+'wordfile.txt' -- see ultraedit.com for more informations) and offers
+functions such as automatic indentation, correction and completion, or syntax
+highlighting. It also has its own mini macro language.
+Beaver is released under the GNU General Public License and has been started
+as an end-of-year project for our second year at the french computing school
+EPITA. Of course, any remark or advice (or even contribution) are the welcome!
+
+INSTALL
+-------
+Please see the file INSTALL for instructions on installation.
+
+REQUIREMENTS
+------------
+For the Unix Version
+- A Unix-based operating system with X-Windows (oh, really?).
+- A recent (stable) version of GTK correctly installed
+  (Beaver has been compiled on our PCs using GTK 1.2.10 and 1.2.9, but
+   older releases should work fine too).
+For the Windows version
+- The GTK .dlls for use, and Mingwin or Cygwin if you want to compile the
+  sources (kinda tricky).
+
+CURRENT FEATURES
+----------------
+
+- Syntax highlighting        |   All theses features are
+- Automatic indentation       \  configurable via a file
+- Automatic completion        /  100% compatible with
+- Automatic case-correction  |   UltraEdit wordfile.txt's
+- Languages supported by the default wordfile.txt provided:
+  C/C++, HTML, JavaScript, Perl, PHP and Bash
+- You can choose your syntax highlighting mode
+- Multiple documents management
+- Preferences interface (you can also edit the config files, which are
+			 intended to be very clear, if you want)
+- Languages menus that can be created by users, through '.bl' files
+- Recent documents menu
+- Search & Replace capabilities
+- A command line that works fine
+- File informations window
+- Read only mode
+- Print function
+- Popup Document list
+- Menu accelerators that work
+- Save window size
+- Other configurable options: toolbar, document tabs, etc.
+- A base converter
+- A nice Color picker
+- Lots of surprises
+
+HOW TO REPORT BUGS
+------------------
+Simply send a mail to <bevand_m@epita.fr>, containing the usual informations
+and description.
+
+CONTACTING THE AUTHORS
+----------------------
+See the AUTHORS file for contact information.
+
+
+Once again, thank you for your interest in Beaver, we hope you enjoy using it.
+---
+Marc Bevand		- After -	<bevand_m@epita.fr>
+Emmanuel Turquin	- Ender -	<turqui_e@epita.fr>
+Damien Terrier		- mAd -		retired...
+http://www.beaver-project.org

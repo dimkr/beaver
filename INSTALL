@@ -1,0 +1,25 @@
+Install
+-------
+
+* UNIX/LINUX
+
+As usual, edit the 'Makefile' in the 'src' sub-directory to fit your needs
+(besides, it shouldn't be necessary), and then run 'make'. Finally, just run
+'make install' (you may need root privileges for this), or simply copy the
+beaver binary in a directory which is in your path (like '/bin', '/usr/bin'
+or '/usr/local/bin'). Run 'beaver' and enjoy!
+And don't forget to have a look at the '.bl' files examples that you can find
+in the 'bl' directory ('.bl' files are used by Beaver to generate tags
+insertion menus in the 'Languages' menu).
+
+In a nutshell, the recommended method is:
+
+beaver$ cd src
+beaver/src$ emacs Makefile        # Be sure you checked DESTDIR
+beaver/src$ make
+beaver/src$ make install
+
+
+* WINDOWS
+
+Still experimental... and probably always will!

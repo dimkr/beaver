@@ -1,0 +1,13 @@
+Known problems/bugs:
+
+  - Text widget is sometimes blinking when you type
+
+  - Text widget is scrolling when:
+      * the string which is searched for (with a "Find" action) is
+        located far away from the current cursor position
+      * the langage is manually changed (with the "Language" menu) while
+        the cursor is far away from the beginning of the buffer
+
+Note: The bugs related to the GTK 1.2 text widget are rather due to GTK
+      limitations than mistakes we would have done in our code. A port
+      to GTK 2 would probably represent a big improvement.

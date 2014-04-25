@@ -1,0 +1,40 @@
+NEWS - list of user-visible changes between releases of Beaver
+
+New in 0.2.7 - 06-28-2003:
+  * Small bugfixes
+
+New in 0.2.6 - 02-17-2003:
+  * String replacement in all buffers
+
+New in 0.2.5 - 01-18-2003:
+  * Conversions on all opened files
+  * Multibytes fonstsets handling
+
+New in 0.2.4 - 07-18-2002:
+  * The syntax highlighting engine has been greatly improved
+    (memory usage reduced by more than 95%, bugs fixed)
+  * Manual choice of syntax highlighting mode
+  * Major bugfix in the configuration writing system
+  * New icons by Jimmac, and few modifications of the interface
+  * NOTE: this is the final release made by After and Ender
+
+New in 0.2.3 - 02-27-2002:
+  * Two major bugfixes (shift + backspace and undo/redo bugs)
+  * The default wordfile.txt provided has been enhanced:
+     - Java language support removed (it was using about 50% of the total
+       memory used by beaver)
+     - C/C++ section has been cleaned (all keywords not defined by
+       the ISO standard have been removed)
+     - Bash scripts support added
+    Please remove your old ~/.beaver/wordfile.txt and let beaver create
+    the new one for you
+
+New in 0.2.2 - 02-18-2002:
+  * Minor bugfixes and Print function added
+
+New in 0.2.1 - 02-15-2001:
+  * The configuration system has been completely rewritten, no more characters
+    per line or lines per file limitations
+
+New in 0.2.0 - 01-15-2001:
+  * First public release :)

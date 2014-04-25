@@ -1,0 +1,40 @@
+## example2.bl : a second example of Beaver Language File
+## Made by Emmanuel Turquin (aka "Ender") <ender@beaver-project.org>
+
+## Allright, this second example will be much shorter.
+## You probably noticed that there is no [Directories]
+## section. It just means that all the entries we will
+## define are in directories created by other '.bl' files,
+## loaded before this current one.
+
+[Entry1]
+Path = Example1/Example3/Example9
+
+## After having included this entry in our menus, we finally
+## have, by combining the two '.bl' examples files:
+##
+##              Languages
+##                  |
+##                  |---> Example1
+##                           |
+##                           |---> Example2
+##                           |        |
+##                           |        |---> Example6
+##                           |        |
+##                           |        |---> Example7
+##                           |
+##                           |---> Example3
+##                           |        |
+##                           |        |---> Example8
+##                           |        |
+##                           |        |---> Example9
+##                           |
+##                          SEP
+##                           |
+##                        Example4
+##                           |
+##                          SEP
+##                           |
+##                        Example5
+##
+## Have fun!

@@ -1,0 +1,131 @@
+## glib.bl : a Beaver Language File for the GLib
+## Made by Emmanuel Turquin (aka "Ender") <ender@beaver-project.org>
+
+## Work in progress...
+
+[Directories]
+Directory1 = C
+Directory2 = C/GLib
+Directory3 = C/GLib/Types
+Directory4 = C/GLib/Strings
+
+[Entry1]
+Path = C/GLib/Types/gboolean
+InsertText1 = gboolean
+
+[Entry2]
+Path = C/GLib/Types/gpointer
+InsertText1 = gpointer
+
+[Entry3]
+Path = C/GLib/Types/gchar
+InsertText1 = gchar
+
+[Entry4]
+Path = C/GLib/Types/SEP
+
+[Entry5]
+Path = C/GLib/Types/gint
+InsertText1 = gint
+
+[Entry6]
+Path = C/GLib/Types/guint
+InsertText1 = guint
+
+[Entry7]
+Path = C/GLib/Types/SEP
+
+[Entry8]
+Path = C/GLib/Types/gfloat
+InsertText1 = gfloat
+
+[Entry9]
+Path = C/GLib/Types/gdouble
+InsertText1 = gdouble
+
+[Entry10]
+Path = C/GLib/Strings/g-strdup()
+InsertText1 = g_strdup(
+InsertText2 = )
+
+[Entry11]
+Path = C/GLib/Strings/g-strndup()
+InsertText1 = g_strndup(
+InsertText2 = )
+
+[Entry12]
+Path = C/GLib/Strings/g-strdup-printf()
+InsertText1 = g_strdup_printf(
+InsertText2 = )
+
+[Entry13]
+Path = C/GLib/Strings/SEP
+
+[Entry14]
+Path = C/GLib/Strings/g-strup()
+InsertText1 = g_strup(
+InsertText2 = )
+
+[Entry15]
+Path = C/GLib/Strings/g-strdown()
+InsertText1 = g_strdown(
+InsertText2 = )
+
+[Entry16]
+Path = C/GLib/Strings/SEP
+
+[Entry17]
+Path = C/GLib/Strings/g-strcasecmp()
+InsertText1 = g_strcasecmp(
+InsertText2 = )
+
+[Entry18]
+Path = C/GLib/Strings/g-strreverse()
+InsertText1 = g_strreverse(
+InsertText2 = )
+
+[Entry19]
+Path = C/GLib/Strings/SEP
+
+[Entry20]
+Path = C/GLib/Strings/g-strchug()
+InsertText1 = g_strchug(
+InsertText2 = )
+
+[Entry21]
+Path = C/GLib/Strings/g-strchomp()
+InsertText1 = g_strchomp( 
+InsertText2 = )
+
+[Entry22]
+Path = C/GLib/Strings/SEP
+
+[Entry23]
+Path = C/GLib/Strings/g-strdelimit()
+InsertText1 = g_strdelimit(
+InsertText2 = )
+
+[Entry24]
+Path = C/GLib/Strings/g-strsplit()
+InsertText1 = g_strsplit(
+InsertText2 = )
+
+[Entry25]
+Path = C/GLib/Strings/g-strfreev()
+InsertText1 = g_strfreev(
+InsertText2 = )
+
+[Entry26]
+Path = C/GLib/Strings/g-strconcat()
+InsertText1 = g_strconcat(
+InsertText2 = )
+
+[Entry27]
+Path = C/GLib/Strings/g-strjoin()
+InsertText1 = g_strjoin(
+InsertText2 = )
+
+[Entry28]
+Path = C/GLib/Strings/g-strjoinv()
+InsertText1 = g_strjoinv(
+InsertText2 = )

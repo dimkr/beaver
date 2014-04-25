@@ -1,0 +1,105 @@
+## example1.bl : a first example of Beaver Language File
+## Made by Emmanuel Turquin (aka "Ender") <ender@beaver-project.org>
+
+## Welcome to this mini-tutorial about how to use '.bl' files.
+## First of all, you have to add the following lines in your
+## '$HOME/.beaver/General' Conf file, in the [Languages] section:
+## (...)
+## [Languages]
+## BLFile1 = example1.bl
+## BLFile2 = example2.bl
+## (...)
+## and to copy the present file and 'example2.bl' in the same
+## directory (i.e '$HOME/.beaver/'). OK, let's start!
+
+## The Directories Section is used to generate branches of the
+## 'Languages' menu, that can be teared off. Just indicate the
+## path of each one; for instance, the following section:
+
+[Directories]
+Directory1 = Example1
+Directory2 = Example1/Example2
+Directory3 = Example1/Example3
+
+## generates this structure of menus :
+##
+##              Languages
+##                  |
+##                  |---> Example1
+##                           |
+##                           |---> Example2
+##                           |
+##                           |---> Example3
+##
+## Now, we have to fill these empty branches with some "fruits"...
+
+## The so-called fruits are designed by the term 'EntryX', where X
+## stands for a number, from 1 to a maximum set in the Beaver sources
+## (default is 1000, but we'll see in the next '.bl' example that
+## it's not a problem...). Let's examine some of them:
+
+## This first one just puts a separator below 'Example1'
+
+[Entry1]
+Path = SEP
+
+## This second one is a bit more complex: it puts an 'Example4'
+## entry just below the separator, that inserts a:
+## '<HTML>
+## 	|
+##  </HTML>' in the buffer when clicked,
+## where '|' is the cursor position. As you see, the
+## cursor is placed between the two strings. We could
+## replace these two strins by 'left string' and 'right string',
+## and then it would insert 'left string|right string'.
+## And you can notice that special characters '\n' and '\t' are
+## supported. I suggest you to make some tries...
+
+[Entry2]
+Path = Example4
+InsertText1 = <HTML>\n\t
+InsertText2 = \n</HTML>
+
+## Another separator...
+
+[Entry3]
+Path = SEP
+
+## And a second entry...
+
+[Entry4]
+Path = Example5
+InsertText1 = cursor ->
+InsertText2 = <- cursor
+
+## This one introduces a new parameter, which is
+## quite easily understandable, I think.
+## Concerning the inserted strings, as the left one is
+## empty, you probably guessed the result would be:
+## '|right string'...
+
+[Entry5]
+Path = Example1/Example2/Example6
+KeyBinding = <alt>O
+InsertText1 =
+InsertText2 = right string
+
+## ...and this time 'left string|'.
+
+[Entry6]
+Path = Example1/Example2/Example7
+KeyBinding = <alt>P
+InsertText1 = left string
+InsertText2 =
+
+## At last, an entry that do nothing:
+
+[Entry7]
+Path = Example1/Example3/Example8
+
+## That's all you need to know. Not very complex, is it?
+## You can all the same have a look at the second '.bl'
+## example, that explains why the limit of entries per
+## file is not a real problem.
+[Entry8]
+
