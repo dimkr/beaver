@@ -646,7 +646,7 @@ void add_page_in_notebook (GtkNotebook *Notebook, gchar *FileName)
 				       GTK_CORNER_TOP_LEFT);
   FPROPS(OpenedFilesCnt, Text) = gtk_text_new (NULL, NULL);
   Style = gtk_style_copy (gtk_widget_get_style(FPROPS(OpenedFilesCnt, Text)));
-  Style -> font = gdk_fontset_load (FONT);
+  Style -> font = gdk_font_load (FONT);
   Style -> bg[GTK_STATE_SELECTED].red = SELECTED_BG_RED;
   Style -> bg[GTK_STATE_SELECTED].green = SELECTED_BG_GREEN;
   Style -> bg[GTK_STATE_SELECTED].blue = SELECTED_BG_BLUE;

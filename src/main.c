@@ -130,7 +130,7 @@ int main (int argc, char *argv[])
 	  "[Editor]\n"
 	  "Wordfile = ", ConfDir,  PATH_SEP_STRING, "wordfile.txt"
 	  "\n"
-	  "Font = -misc-fixed-medium-r-semicondensed-*-*-120-*-*-c-*-iso8859-1"
+	  "Font = fixed"
 	  "\n"
 	  "BGRed = 65535\n"
 	  "BGBlue = 65535\n"

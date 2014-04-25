@@ -192,7 +192,7 @@ gboolean text_preview (GtkWidget *Widget)
   GtkStyle *Style;
 
   Style = gtk_style_copy (gtk_widget_get_style(Widget));
-  Style -> font = gdk_fontset_load (set_temp.font);
+  Style -> font = gdk_font_load (set_temp.font);
   Style -> bg[GTK_STATE_SELECTED].red = set_temp.selected_bg[0];
   Style -> bg[GTK_STATE_SELECTED].green = set_temp.selected_bg[1];
   Style -> bg[GTK_STATE_SELECTED].blue = set_temp.selected_bg[2];
@@ -245,7 +245,7 @@ void apply_changes (GtkWidget *Widget, t_settings *set)
 
       Style = gtk_style_copy
 	(gtk_widget_get_style(FPROPS(0, Text)));
-      Style -> font = gdk_fontset_load (set -> font);
+      Style -> font = gdk_font_load (set -> font);
       Style -> bg[GTK_STATE_SELECTED].red = set -> selected_bg[0];
       Style -> bg[GTK_STATE_SELECTED].green = set -> selected_bg[1];
       Style -> bg[GTK_STATE_SELECTED].blue = set -> selected_bg[2];
